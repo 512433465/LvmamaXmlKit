@@ -1,0 +1,177 @@
+2018-10-31 08:17:23:270 - info: [Appium] Welcome to Appium v1.6.4
+2018-10-31 08:17:23:272 - info: [Appium] Non-default server args:
+2018-10-31 08:17:23:272 - info: [Appium]   log: C:\Users\Administrator\Desktop\javalog.txt
+2018-10-31 08:17:23:311 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2018-10-31 08:17:43:288 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"appPackage":"com.tencent.mm","noReset":true,"deviceName":"a6990c40","version":"6.0","platform":"ANDROID","appActivity":".ui.LauncherUI","goog:chromeOptions":{"androidPackage":"com.tencent.mm","androidProcess":"com.tencent.mm:appbrand0","args":[],"extensions":[]},"showChromedriverLog":true,"autoGrantPermissions":true,"browserName":"chrome","platformName":"Android"}}
+2018-10-31 08:17:43:290 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"appPackage":"com.tencent.mm","noReset":true,"deviceName":"a6990c40","version":"6.0","platform":"ANDROID","appActivity":".ui.LauncherUI","goog:chromeOptions":{"androidPackage":"com.tencent.mm","androidProcess":"com.tencent.mm:appbrand0","args":[],"extensions":[]},"showChromedriverLog":true,"autoGrantPermissions":true,"browserName":"chrome","platformName":"Android"},null,null,null,null]
+2018-10-31 08:17:43:291 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1540973863291 (16:17:43 GMT+0800 (中国标准时间))
+2018-10-31 08:17:43:294 - info: [Appium] Creating new AndroidDriver (v1.17.1) session
+2018-10-31 08:17:43:294 - info: [Appium] Capabilities:
+2018-10-31 08:17:43:296 - info: [Appium]   appPackage: 'com.tencent.mm'
+2018-10-31 08:17:43:296 - info: [Appium]   noReset: true
+2018-10-31 08:17:43:296 - info: [Appium]   deviceName: 'a6990c40'
+2018-10-31 08:17:43:297 - info: [Appium]   version: '6.0'
+2018-10-31 08:17:43:297 - info: [Appium]   platform: 'ANDROID'
+2018-10-31 08:17:43:297 - info: [Appium]   appActivity: '.ui.LauncherUI'
+2018-10-31 08:17:43:297 - info: [Appium]   goog:chromeOptions: { androidPackage: 'com.tencent.mm',
+  androidProcess: 'com.tencent.mm:appbrand0',
+  args: [],
+  extensions: [] }
+2018-10-31 08:17:43:298 - info: [Appium]   showChromedriverLog: true
+2018-10-31 08:17:43:298 - info: [Appium]   autoGrantPermissions: true
+2018-10-31 08:17:43:298 - info: [Appium]   browserName: 'chrome'
+2018-10-31 08:17:43:298 - info: [Appium]   platformName: 'Android'
+2018-10-31 08:17:43:299 - info: [debug] [AndroidDriver] AndroidDriver version: 1.17.1
+2018-10-31 08:17:43:304 - warn: [BaseDriver] The following capabilities were provided, but are not recognized by appium: version, platform, goog:chromeOptions, showChromedriverLog.
+2018-10-31 08:17:43:305 - info: [BaseDriver] Session created with session id: 78cbbc3e-3ee9-4a6f-9aac-02bacdc38e01
+2018-10-31 08:17:43:333 - info: [debug] [AndroidDriver] Getting Java version
+2018-10-31 08:17:43:746 - info: [AndroidDriver] Java version is: 1.8.0_141
+2018-10-31 08:17:43:747 - info: [AndroidDriver] We're going to run a Chrome-based session
+2018-10-31 08:17:43:748 - info: [AndroidDriver] Chrome-type package and activity are com.android.chrome and com.google.android.apps.chrome.Main
+2018-10-31 08:17:43:751 - info: [ADB] Checking whether adb is present
+2018-10-31 08:17:43:753 - info: [ADB] Using adb.exe from C:\android-sdk-windows\platform-tools\adb.exe
+2018-10-31 08:17:43:753 - info: [AndroidDriver] Retrieving device list
+2018-10-31 08:17:43:754 - info: [debug] [ADB] Trying to find a connected android device
+2018-10-31 08:17:43:755 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:17:43:832 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:17:43:832 - info: [AndroidDriver] Using device: a6990c40
+2018-10-31 08:17:43:833 - info: [ADB] Checking whether adb is present
+2018-10-31 08:17:43:835 - info: [ADB] Using adb.exe from C:\android-sdk-windows\platform-tools\adb.exe
+2018-10-31 08:17:43:835 - info: [debug] [ADB] Setting device id to a6990c40
+2018-10-31 08:17:43:836 - info: [AndroidDriver] App file was not listed, instead we're going to run com.android.chrome directly on the device
+2018-10-31 08:17:43:837 - info: [debug] [AndroidDriver] Checking whether package is present on the device
+2018-10-31 08:17:43:838 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:17:43:874 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:17:43:876 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","pm","list","packages","com.android.chrome"]
+2018-10-31 08:17:44:837 - info: [AndroidDriver] Starting Android session
+2018-10-31 08:17:44:839 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","wait-for-device"]
+2018-10-31 08:17:44:894 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:17:44:932 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:17:44:933 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","echo","ping"]
+2018-10-31 08:17:45:005 - info: [debug] [Logcat] Starting logcat capture
+2018-10-31 08:17:45:128 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2018-10-31 08:17:45:129 - info: [debug] [ADB] Getting install status for io.appium.settings
+2018-10-31 08:17:45:130 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:17:45:171 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:17:45:172 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","pm","list","packages","io.appium.settings"]
+2018-10-31 08:17:46:021 - info: [debug] [ADB] App is installed
+2018-10-31 08:17:46:021 - info: [debug] [ADB] Getting package info for io.appium.settings
+2018-10-31 08:17:46:023 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:17:46:037 - info: [ADB] Checking whether aapt is present
+2018-10-31 08:17:46:041 - info: [ADB] Using aapt.exe from C:\android-sdk-windows\platform-tools\aapt.exe
+2018-10-31 08:17:46:089 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:17:46:090 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","dumpsys","package","io.appium.settings"]
+2018-10-31 08:17:46:107 - warn: [ADB] Cannot read version codes of C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\app\build\outputs\apk\settings_apk-debug.apk and/or io.appium.settings. Assuming correct app version is already installed
+2018-10-31 08:17:46:110 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:17:46:155 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:17:46:156 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","getprop","ro.build.version.sdk"]
+2018-10-31 08:17:46:238 - info: [debug] [ADB] Device API level: 23
+2018-10-31 08:17:46:238 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:17:46:270 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:17:46:271 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","dumpsys","package","io.appium.settings"]
+2018-10-31 08:17:46:382 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:17:46:412 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:17:46:413 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","pm","dump","io.appium.settings"]
+2018-10-31 08:17:47:809 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:17:47:846 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:17:47:846 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","pm","grant","io.appium.settings","android.permission.WRITE_SETTINGS",";","pm","grant","io.appium.settings","android.permission.ACCESS_MOCK_LOCATION",";"]
+2018-10-31 08:17:49:641 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2018-10-31 08:17:49:642 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","install","C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-unlock\\bin\\unlock_apk-debug.apk"]
+2018-10-31 08:17:51:022 - info: [debug] [ADB] Device API level: 23
+2018-10-31 08:17:51:023 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:17:51:061 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:17:51:062 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","appops","set","io.appium.settings","android:mock_location","allow"]
+2018-10-31 08:17:52:179 - info: [ADB] Getting device platform version
+2018-10-31 08:17:52:179 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:17:52:215 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:17:52:216 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","getprop","ro.build.version.release"]
+2018-10-31 08:17:52:313 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:17:52:342 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:17:52:344 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","wm","size"]
+2018-10-31 08:17:53:462 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:17:53:510 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:17:53:511 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","getprop","ro.product.model"]
+2018-10-31 08:17:53:619 - info: [debug] [ADB] Current device property 'ro.product.model': MI NOTE LTE
+2018-10-31 08:17:53:620 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:17:53:656 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:17:53:657 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","getprop","ro.product.manufacturer"]
+2018-10-31 08:17:53:752 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': Xiaomi
+2018-10-31 08:17:53:754 - warn: [AndroidDriver] No app sent in, not parsing package/activity
+2018-10-31 08:17:53:754 - info: [debug] [AndroidDriver] No app capability. Assuming it is already on the device
+2018-10-31 08:17:53:756 - info: [debug] [ADB] Device API level: 23
+2018-10-31 08:17:53:758 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:17:53:817 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:17:53:819 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","dumpsys","package","com.android.chrome"]
+2018-10-31 08:17:53:956 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:17:53:990 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:17:53:991 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","pm","dump","com.android.chrome"]
+2018-10-31 08:17:55:466 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:17:55:512 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:17:55:513 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","pm","grant","com.android.chrome","android.permission.ACCESS_COARSE_LOCATION",";","pm","grant","com.android.chrome","android.permission.ACCESS_FINE_LOCATION",";","pm","grant","com.android.chrome","android.permission.CAMERA",";","pm","grant","com.android.chrome","android.permission.GET_ACCOUNTS",";","pm","grant","com.android.chrome","android.permission.RECORD_AUDIO",";"]
+2018-10-31 08:17:59:808 - info: [debug] [AndroidBootstrap] Watching for bootstrap disconnect
+2018-10-31 08:17:59:810 - info: [debug] [ADB] Forwarding system: 4724 to device: 4724
+2018-10-31 08:17:59:811 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","forward","tcp:4724","tcp:4724"]
+2018-10-31 08:17:59:829 - info: [debug] [UiAutomator] Starting UiAutomator
+2018-10-31 08:17:59:830 - info: [debug] [UiAutomator] Moving to state 'starting'
+2018-10-31 08:17:59:840 - info: [debug] [UiAutomator] Parsing uiautomator jar
+2018-10-31 08:17:59:844 - info: [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2018-10-31 08:17:59:845 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","push","C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar","/data/local/tmp/"]
+2018-10-31 08:18:00:000 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2018-10-31 08:18:00:002 - info: [debug] [ADB] Getting all processes with uiautomator
+2018-10-31 08:18:00:004 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:18:00:042 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:18:00:042 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","ps"]
+2018-10-31 08:18:00:214 - info: [ADB] No uiautomator process found to kill, continuing...
+2018-10-31 08:18:00:215 - info: [debug] [UiAutomator] Starting UIAutomator
+2018-10-31 08:18:00:216 - info: [debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","a6990c40","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.android.chrome","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2018-10-31 08:18:01:218 - info: [debug] [UiAutomator] Moving to state 'online'
+2018-10-31 08:18:01:221 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2018-10-31 08:18:01:224 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2018-10-31 08:18:01:226 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:18:01:240 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2018-10-31 08:18:01:261 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:18:01:261 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","dumpsys","window"]
+2018-10-31 08:18:01:421 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2018-10-31 08:18:01:421 - info: [AndroidDriver] Starting a chrome-based browser session
+2018-10-31 08:18:01:430 - info: [debug] [AndroidDriver] A port was not given, using random port: 8000
+2018-10-31 08:18:01:432 - info: [debug] [Chromedriver] Changed state to 'starting'
+2018-10-31 08:18:01:435 - info: [Chromedriver] Set chromedriver binary as: C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\appium-chromedriver\chromedriver\win\chromedriver.exe
+2018-10-31 08:18:01:435 - info: [Chromedriver] Killing any old chromedrivers, running: FOR /F "usebackq tokens=5" %a in (`netstat -nao ^| findstr /R /C:"8000 "`) do (FOR /F "usebackq" %b in (`TASKLIST /FI "PID eq %a" ^| findstr /I chromedriver.exe`) do (IF NOT %b=="" TASKKILL /F /PID %a))
+2018-10-31 08:18:01:600 - info: [Chromedriver] No old chromedrivers seemed to exist
+2018-10-31 08:18:01:601 - info: [Chromedriver] Spawning chromedriver with: C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\appium-chromedriver\chromedriver\win\chromedriver.exe --url-base=wd/hub --port=8000 --adb-port=5037
+2018-10-31 08:18:01:667 - info: [Chromedriver] [STDOUT] Starting ChromeDriver 2.28.455520 (cc17746adff54984afff480136733114c6b3704b) on port 8000
+Only local connections are allowed.
+2018-10-31 08:18:01:670 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8000/wd/hub/status] with no body
+2018-10-31 08:18:01:690 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"\",\"status\":0,\"value\":{\"build\":{\"version\":\"alpha\"},\"os\":{\"arch\":\"x86_64\",\"name\":\"Windows NT\",\"version\":\"6.1.7601 SP1\"}}}"
+2018-10-31 08:18:01:693 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://127.0.0.1:8000/wd/hub/session] with body: {"desiredCapabilities":{"chromeOptions":{"androidPackage":"com.android.chrome","androidDeviceSerial":"a6990c40"}}}
+2018-10-31 08:18:09:113 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"599af221aa6943cf3cc985fbd5c3dee9","status":0,"value":{"acceptSslCerts":true,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.28.455520 (cc17746adff54984afff480136733114c6b3704b)"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":true,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"pageLoadStrategy":"normal","platform":"ANDROID","rotatable":false,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"62.0.3202.84","webStorageEnabled":true}}
+2018-10-31 08:18:09:114 - info: [debug] [Chromedriver] Changed state to 'online'
+2018-10-31 08:18:09:116 - info: [Appium] New AndroidDriver session created successfully, session 78cbbc3e-3ee9-4a6f-9aac-02bacdc38e01 added to master session list
+2018-10-31 08:18:09:119 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1540973889118 (16:18:09 GMT+0800 (中国标准时间))
+2018-10-31 08:18:09:121 - info: [debug] [MJSONWP] Responding to client with driver.createSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.tencent.mm","noReset":true,"deviceName":"a6990c40","version":"6.0","platform":"ANDROID","appActivity":".ui.LauncherUI","goog:chromeOptions":{"androidPackage":"com.tencent.mm","androidProcess":"com.tencent.mm:appbrand0","args":[],"extensions":[]},"showChromedriverLog":true,"autoGrantPermissions":true,"browserName":"chrome","platformName":"Android"},"appPackage":"com.tencent.mm","noReset":true,"deviceName":"a6990c40","version":"6.0","appActivity":".ui.LauncherUI","goog:chromeOptions":{"androidPackage":"com.tencent.mm","androidProcess":"com.tencent.mm:appbrand0","args":[],"extensions":[]},"showChromedriverLog":true,"autoGrantPermissions":true,"browserName":"chrome","platformName":"Android","deviceUDID":"a6990c40","platformVersion":"6.0.1","deviceScreenSize":"1080x1920","deviceModel":"MI ...
+2018-10-31 08:18:09:127 - info: [HTTP] <-- POST /wd/hub/session 200 25835 ms - 1133 
+2018-10-31 08:18:09:176 - info: [HTTP] --> GET /wd/hub/session/78cbbc3e-3ee9-4a6f-9aac-02bacdc38e01 {}
+2018-10-31 08:18:09:177 - info: [MJSONWP] Driver proxy active, passing request on via HTTP proxy
+2018-10-31 08:18:09:179 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/78cbbc3e-3ee9-4a6f-9aac-02bacdc38e01] to [GET http://127.0.0.1:8000/wd/hub/session/599af221aa6943cf3cc985fbd5c3dee9] with body: {}
+2018-10-31 08:18:09:205 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"599af221aa6943cf3cc985fbd5c3dee9\",\"status\":0,\"value\":{\"acceptSslCerts\":true,\"applicationCacheEnabled\":false,\"browserConnectionEnabled\":false,\"browserName\":\"chrome\",\"chrome\":{\"chromedriverVersion\":\"2.28.455520 (cc17746adff54984afff480136733114c6b3704b)\"},\"cssSelectorsEnabled\":true,\"databaseEnabled\":false,\"handlesAlerts\":true,\"hasTouchScreen\":true,\"javascriptEnabled\":true,\"locationContextEnabled\":true,\"mobileEmulationEnabled\":false,\"nativeEvents\":true,\"pageLoadStrategy\":\"normal\",\"platform\":\"ANDROID\",\"rotatable\":false,\"takesHeapSnapshot\":true,\"takesScreenshot\":true,\"unexpectedAlertBehaviour\":\"\",\"version\":\"62.0.3202.84\",\"webStorageEnabled\":true}}"
+2018-10-31 08:18:09:206 - info: [JSONWP Proxy] Replacing sessionId 599af221aa6943cf3cc985fbd5c3dee9 with 78cbbc3e-3ee9-4a6f-9aac-02bacdc38e01
+2018-10-31 08:18:09:209 - info: [HTTP] <-- GET /wd/hub/session/78cbbc3e-3ee9-4a6f-9aac-02bacdc38e01 200 32 ms - 668 
+2018-10-31 08:18:09:226 - info: [HTTP] --> GET /wd/hub/session/78cbbc3e-3ee9-4a6f-9aac-02bacdc38e01 {}
+2018-10-31 08:18:09:227 - info: [MJSONWP] Driver proxy active, passing request on via HTTP proxy
+2018-10-31 08:18:09:228 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/78cbbc3e-3ee9-4a6f-9aac-02bacdc38e01] to [GET http://127.0.0.1:8000/wd/hub/session/599af221aa6943cf3cc985fbd5c3dee9] with body: {}
+2018-10-31 08:18:09:235 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"599af221aa6943cf3cc985fbd5c3dee9\",\"status\":0,\"value\":{\"acceptSslCerts\":true,\"applicationCacheEnabled\":false,\"browserConnectionEnabled\":false,\"browserName\":\"chrome\",\"chrome\":{\"chromedriverVersion\":\"2.28.455520 (cc17746adff54984afff480136733114c6b3704b)\"},\"cssSelectorsEnabled\":true,\"databaseEnabled\":false,\"handlesAlerts\":true,\"hasTouchScreen\":true,\"javascriptEnabled\":true,\"locationContextEnabled\":true,\"mobileEmulationEnabled\":false,\"nativeEvents\":true,\"pageLoadStrategy\":\"normal\",\"platform\":\"ANDROID\",\"rotatable\":false,\"takesHeapSnapshot\":true,\"takesScreenshot\":true,\"unexpectedAlertBehaviour\":\"\",\"version\":\"62.0.3202.84\",\"webStorageEnabled\":true}}"
+2018-10-31 08:18:09:236 - info: [JSONWP Proxy] Replacing sessionId 599af221aa6943cf3cc985fbd5c3dee9 with 78cbbc3e-3ee9-4a6f-9aac-02bacdc38e01
+2018-10-31 08:18:09:239 - info: [HTTP] <-- GET /wd/hub/session/78cbbc3e-3ee9-4a6f-9aac-02bacdc38e01 200 11 ms - 668 
+2018-10-31 08:18:09:242 - info: [HTTP] --> GET /wd/hub/session/78cbbc3e-3ee9-4a6f-9aac-02bacdc38e01 {}
+2018-10-31 08:18:09:243 - info: [MJSONWP] Driver proxy active, passing request on via HTTP proxy
+2018-10-31 08:18:09:244 - info: [debug] [JSONWP Proxy] Proxying [GET /wd/hub/session/78cbbc3e-3ee9-4a6f-9aac-02bacdc38e01] to [GET http://127.0.0.1:8000/wd/hub/session/599af221aa6943cf3cc985fbd5c3dee9] with body: {}
+2018-10-31 08:18:09:249 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"599af221aa6943cf3cc985fbd5c3dee9\",\"status\":0,\"value\":{\"acceptSslCerts\":true,\"applicationCacheEnabled\":false,\"browserConnectionEnabled\":false,\"browserName\":\"chrome\",\"chrome\":{\"chromedriverVersion\":\"2.28.455520 (cc17746adff54984afff480136733114c6b3704b)\"},\"cssSelectorsEnabled\":true,\"databaseEnabled\":false,\"handlesAlerts\":true,\"hasTouchScreen\":true,\"javascriptEnabled\":true,\"locationContextEnabled\":true,\"mobileEmulationEnabled\":false,\"nativeEvents\":true,\"pageLoadStrategy\":\"normal\",\"platform\":\"ANDROID\",\"rotatable\":false,\"takesHeapSnapshot\":true,\"takesScreenshot\":true,\"unexpectedAlertBehaviour\":\"\",\"version\":\"62.0.3202.84\",\"webStorageEnabled\":true}}"
+2018-10-31 08:18:09:250 - info: [JSONWP Proxy] Replacing sessionId 599af221aa6943cf3cc985fbd5c3dee9 with 78cbbc3e-3ee9-4a6f-9aac-02bacdc38e01
+2018-10-31 08:18:09:252 - info: [HTTP] <-- GET /wd/hub/session/78cbbc3e-3ee9-4a6f-9aac-02bacdc38e01 200 9 ms - 668 
+2018-10-31 08:18:11:269 - info: [HTTP] --> POST /wd/hub/session/78cbbc3e-3ee9-4a6f-9aac-02bacdc38e01/element {"using":"xpath","value":"//*[@text='发现']"}
+2018-10-31 08:18:11:272 - info: [MJSONWP] Driver proxy active, passing request on via HTTP proxy
+2018-10-31 08:18:11:274 - info: [debug] [JSONWP Proxy] Proxying [POST /wd/hub/session/78cbbc3e-3ee9-4a6f-9aac-02bacdc38e01/element] to [POST http://127.0.0.1:8000/wd/hub/session/599af221aa6943cf3cc985fbd5c3dee9/element] with body: {"using":"xpath","value":"//*[@text='发现']"}
+2018-10-31 08:18:11:582 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"599af221aa6943cf3cc985fbd5c3dee9","status":7,"value":{"message":"no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@text='发现']\"}\n  (Session info: chrome=62.0.3202.84)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
+2018-10-31 08:18:11:583 - info: [JSONWP Proxy] Replacing sessionId 599af221aa6943cf3cc985fbd5c3dee9 with 78cbbc3e-3ee9-4a6f-9aac-02bacdc38e01
+2018-10-31 08:18:11:592 - info: [HTTP] <-- POST /wd/hub/session/78cbbc3e-3ee9-4a6f-9aac-02bacdc38e01/element 200 320 ms - 353 
+2018-10-31 08:18:32:880 - error: [Chromedriver] Chromedriver exited unexpectedly with code 3221225786, signal null

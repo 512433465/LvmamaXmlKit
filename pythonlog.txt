@@ -1,0 +1,401 @@
+2018-10-31 08:19:18:496 - info: [Appium] Welcome to Appium v1.6.4
+2018-10-31 08:19:18:498 - info: [Appium] Non-default server args:
+2018-10-31 08:19:18:498 - info: [Appium]   log: C:\Users\Administrator\Desktop\pythonlog.txt
+2018-10-31 08:19:18:534 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2018-10-31 08:19:23:794 - info: [HTTP] --> POST /wd/hub/session {"capabilities":{"alwaysMatch":{"appium:appActivity":"com.tencent.mm.ui.LauncherUI","appium:showChromedriverLog":"true","appium:chromeOptions":{"androidProcess":"com.tencent.mm:appbrand0"},"appium:noReset":true,"appium:fastReset":"false","appium:fullReset":"false","appium:deviceName":"a6990c40","appium:platformVersion":"6.0","appium:appPackage":"com.tencent.mm","platformName":"Android"},"firstMatch":[{}]},"desiredCapabilities":{"deviceName":"a6990c40","fastReset":"false","noReset":true,"chromeOptions":{"androidProcess":"com.tencent.mm:appbrand0"},"fullReset":"false","platformVersion":"6.0","appPackage":"com.tencent.mm","showChromedriverLog":"true","platformName":"Android","appActivity":"com.tencent.mm.ui.LauncherUI"}}
+2018-10-31 08:19:23:796 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"deviceName":"a6990c40","fastReset":"false","noReset":true,"chromeOptions":{"androidProcess":"com.tencent.mm:appbrand0"},"fullReset":"false","platformVersion":"6.0","appPackage":"com.tencent.mm","showChromedriverLog":"true","platformName":"Android","appActivity":"com.tencent.mm.ui.LauncherUI"},null,{"alwaysMatch":{"appium:appActivity":"com.tencent.mm.ui.LauncherUI","appium:showChromedriverLog":"true","appium:chromeOptions":{"androidProcess":"com.tencent.mm:appbrand0"},"appium:noReset":true,"appium:fastReset":"false","appium:fullReset":"false","appium:deviceName":"a6990c40","appium:platformVersion":"6.0","appium:appPackage":"com.tencent.mm","platformName":"Android"},"firstMatch":[{}]},null,null]
+2018-10-31 08:19:23:797 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1540973963797 (16:19:23 GMT+0800 (中国标准时间))
+2018-10-31 08:19:23:799 - info: [Appium] Creating new AndroidDriver (v1.17.1) session
+2018-10-31 08:19:23:799 - info: [Appium] Capabilities:
+2018-10-31 08:19:23:803 - info: [Appium]   deviceName: 'a6990c40'
+2018-10-31 08:19:23:803 - info: [Appium]   fastReset: 'false'
+2018-10-31 08:19:23:804 - info: [Appium]   noReset: true
+2018-10-31 08:19:23:804 - info: [Appium]   chromeOptions: { androidProcess: 'com.tencent.mm:appbrand0' }
+2018-10-31 08:19:23:805 - info: [Appium]   fullReset: 'false'
+2018-10-31 08:19:23:805 - info: [Appium]   platformVersion: '6.0'
+2018-10-31 08:19:23:806 - info: [Appium]   appPackage: 'com.tencent.mm'
+2018-10-31 08:19:23:806 - info: [Appium]   showChromedriverLog: 'true'
+2018-10-31 08:19:23:806 - info: [Appium]   platformName: 'Android'
+2018-10-31 08:19:23:807 - info: [Appium]   appActivity: 'com.tencent.mm.ui.LauncherUI'
+2018-10-31 08:19:23:808 - info: [debug] [AndroidDriver] AndroidDriver version: 1.17.1
+2018-10-31 08:19:23:811 - warn: [BaseDriver] Capability 'fullReset' changed from string to boolean. This may cause unexpected behavior
+2018-10-31 08:19:23:814 - warn: [BaseDriver] The following capabilities were provided, but are not recognized by appium: fastReset, showChromedriverLog.
+2018-10-31 08:19:23:815 - info: [BaseDriver] Session created with session id: 6b7693d1-c4f8-432b-b55d-5d7fdd7ec506
+2018-10-31 08:19:23:847 - info: [debug] [AndroidDriver] Getting Java version
+2018-10-31 08:19:23:980 - info: [AndroidDriver] Java version is: 1.8.0_141
+2018-10-31 08:19:23:982 - info: [ADB] Checking whether adb is present
+2018-10-31 08:19:23:985 - info: [ADB] Using adb.exe from C:\android-sdk-windows\platform-tools\adb.exe
+2018-10-31 08:19:23:986 - info: [AndroidDriver] Retrieving device list
+2018-10-31 08:19:23:987 - info: [debug] [ADB] Trying to find a connected android device
+2018-10-31 08:19:23:988 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:19:24:147 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:19:24:148 - info: [AndroidDriver] Looking for a device with Android '6.0'
+2018-10-31 08:19:24:148 - info: [debug] [ADB] Setting device id to a6990c40
+2018-10-31 08:19:24:149 - info: [ADB] Getting device platform version
+2018-10-31 08:19:24:149 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:19:24:181 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:19:24:183 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","getprop","ro.build.version.release"]
+2018-10-31 08:19:24:306 - info: [AndroidDriver] Using device: a6990c40
+2018-10-31 08:19:24:307 - info: [ADB] Checking whether adb is present
+2018-10-31 08:19:24:308 - info: [ADB] Using adb.exe from C:\android-sdk-windows\platform-tools\adb.exe
+2018-10-31 08:19:24:308 - info: [debug] [ADB] Setting device id to a6990c40
+2018-10-31 08:19:24:309 - info: [AndroidDriver] App file was not listed, instead we're going to run com.tencent.mm directly on the device
+2018-10-31 08:19:24:309 - info: [debug] [AndroidDriver] Checking whether package is present on the device
+2018-10-31 08:19:24:310 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:19:24:344 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:19:24:345 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","pm","list","packages","com.tencent.mm"]
+2018-10-31 08:19:25:302 - info: [AndroidDriver] Starting Android session
+2018-10-31 08:19:25:306 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","wait-for-device"]
+2018-10-31 08:19:25:368 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:19:25:401 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:19:25:401 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","echo","ping"]
+2018-10-31 08:19:25:484 - info: [debug] [Logcat] Starting logcat capture
+2018-10-31 08:19:25:587 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2018-10-31 08:19:25:589 - info: [debug] [ADB] Getting install status for io.appium.settings
+2018-10-31 08:19:25:590 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:19:25:625 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:19:25:626 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","pm","list","packages","io.appium.settings"]
+2018-10-31 08:19:26:648 - info: [debug] [ADB] App is installed
+2018-10-31 08:19:26:649 - info: [debug] [ADB] Getting package info for io.appium.settings
+2018-10-31 08:19:26:651 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:19:26:669 - info: [ADB] Checking whether aapt is present
+2018-10-31 08:19:26:672 - info: [ADB] Using aapt.exe from C:\android-sdk-windows\platform-tools\aapt.exe
+2018-10-31 08:19:26:708 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:19:26:708 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","dumpsys","package","io.appium.settings"]
+2018-10-31 08:19:26:726 - warn: [ADB] Cannot read version codes of C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\app\build\outputs\apk\settings_apk-debug.apk and/or io.appium.settings. Assuming correct app version is already installed
+2018-10-31 08:19:26:727 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:19:26:784 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:19:26:784 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","getprop","ro.build.version.sdk"]
+2018-10-31 08:19:26:856 - info: [debug] [ADB] Device API level: 23
+2018-10-31 08:19:26:857 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:19:26:895 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:19:26:896 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","dumpsys","package","io.appium.settings"]
+2018-10-31 08:19:27:007 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:19:27:045 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:19:27:046 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","pm","dump","io.appium.settings"]
+2018-10-31 08:19:28:423 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:19:28:464 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:19:28:465 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","pm","grant","io.appium.settings","android.permission.WRITE_SETTINGS",";","pm","grant","io.appium.settings","android.permission.ACCESS_MOCK_LOCATION",";"]
+2018-10-31 08:19:30:231 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2018-10-31 08:19:30:232 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","install","C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-unlock\\bin\\unlock_apk-debug.apk"]
+2018-10-31 08:19:31:485 - info: [debug] [ADB] Device API level: 23
+2018-10-31 08:19:31:487 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:19:31:532 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:19:31:532 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","appops","set","io.appium.settings","android:mock_location","allow"]
+2018-10-31 08:19:32:526 - info: [ADB] Getting device platform version
+2018-10-31 08:19:32:527 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:19:32:564 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:19:32:565 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","getprop","ro.build.version.release"]
+2018-10-31 08:19:32:691 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:19:32:725 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:19:32:727 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","wm","size"]
+2018-10-31 08:19:33:851 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:19:33:915 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:19:33:916 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","getprop","ro.product.model"]
+2018-10-31 08:19:34:011 - info: [debug] [ADB] Current device property 'ro.product.model': MI NOTE LTE
+2018-10-31 08:19:34:012 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:19:34:040 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:19:34:041 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","getprop","ro.product.manufacturer"]
+2018-10-31 08:19:34:149 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': Xiaomi
+2018-10-31 08:19:34:150 - warn: [AndroidDriver] No app sent in, not parsing package/activity
+2018-10-31 08:19:34:152 - info: [debug] [AndroidDriver] No app capability. Assuming it is already on the device
+2018-10-31 08:19:34:153 - info: [debug] [AndroidBootstrap] Watching for bootstrap disconnect
+2018-10-31 08:19:34:154 - info: [debug] [ADB] Forwarding system: 4724 to device: 4724
+2018-10-31 08:19:34:155 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","forward","tcp:4724","tcp:4724"]
+2018-10-31 08:19:34:166 - info: [debug] [UiAutomator] Starting UiAutomator
+2018-10-31 08:19:34:168 - info: [debug] [UiAutomator] Moving to state 'starting'
+2018-10-31 08:19:34:169 - info: [debug] [UiAutomator] Parsing uiautomator jar
+2018-10-31 08:19:34:171 - info: [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2018-10-31 08:19:34:172 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","push","C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar","/data/local/tmp/"]
+2018-10-31 08:19:34:334 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2018-10-31 08:19:34:336 - info: [debug] [ADB] Getting all processes with uiautomator
+2018-10-31 08:19:34:338 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:19:34:377 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:19:34:378 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","ps"]
+2018-10-31 08:19:34:634 - info: [ADB] No uiautomator process found to kill, continuing...
+2018-10-31 08:19:34:636 - info: [debug] [UiAutomator] Starting UIAutomator
+2018-10-31 08:19:34:638 - info: [debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","a6990c40","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.tencent.mm","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2018-10-31 08:19:35:615 - info: [debug] [UiAutomator] Moving to state 'online'
+2018-10-31 08:19:35:617 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Loading json...
+2018-10-31 08:19:35:622 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+2018-10-31 08:19:35:626 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2018-10-31 08:19:35:627 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:19:35:650 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2018-10-31 08:19:35:675 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:19:35:676 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","dumpsys","window"]
+2018-10-31 08:19:35:792 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2018-10-31 08:19:35:794 - info: [debug] [ADB] Device API level: 23
+2018-10-31 08:19:35:794 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:19:35:827 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:19:35:828 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","am","start","-W","-n","com.tencent.mm/com.tencent.mm.ui.LauncherUI","-S","-a","android.intent.action.MAIN","-c","android.intent.category.LAUNCHER","-f","0x10200000"]
+2018-10-31 08:19:38:689 - info: [Appium] New AndroidDriver session created successfully, session 6b7693d1-c4f8-432b-b55d-5d7fdd7ec506 added to master session list
+2018-10-31 08:19:38:692 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1540973978690 (16:19:38 GMT+0800 (中国标准时间))
+2018-10-31 08:19:38:694 - info: [debug] [MJSONWP] Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"deviceName":"a6990c40","fastReset":"false","noReset":true,"chromeOptions":{"androidProcess":"com.tencent.mm:appbrand0"},"fullReset":false,"platformVersion":"6.0","appPackage":"com.tencent.mm","showChromedriverLog":"true","platformName":"Android","appActivity":"com.tencent.mm.ui.LauncherUI"},"deviceName":"a6990c40","fastReset":"false","noReset":true,"chromeOptions":{"androidProcess":"com.tencent.mm:appbrand0"},"fullReset":false,"platformVersion":"6.0.1","appPackage":"com.tencent.mm","showChromedriverLog":"true","platformName":"Android","appActivity":"com.tencent.mm.ui.LauncherUI","deviceUDID":"a6990c40","deviceScreenSize":"1080x1920","deviceModel":"MI NOTE LTE","deviceManufacturer":"Xiaomi"}
+2018-10-31 08:19:38:700 - info: [HTTP] <-- POST /wd/hub/session 200 14904 ms - 978 
+2018-10-31 08:19:38:710 - info: [HTTP] --> POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/timeouts/implicit_wait {"sessionId":"6b7693d1-c4f8-432b-b55d-5d7fdd7ec506","ms":5000}
+2018-10-31 08:19:38:711 - info: [debug] [MJSONWP] Calling AppiumDriver.implicitWait() with args: [5000,"6b7693d1-c4f8-432b-b55d-5d7fdd7ec506"]
+2018-10-31 08:19:38:713 - info: [debug] [BaseDriver] Set implicit wait to 5000ms
+2018-10-31 08:19:38:724 - info: [debug] [MJSONWP] Responding to client with driver.implicitWait() result: null
+2018-10-31 08:19:38:727 - info: [HTTP] <-- POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/timeouts/implicit_wait 200 18 ms - 76 
+2018-10-31 08:19:38:730 - info: [HTTP] --> POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/element {"using":"-android uiautomator","sessionId":"6b7693d1-c4f8-432b-b55d-5d7fdd7ec506","value":"text(\"发现\")"}
+2018-10-31 08:19:38:731 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["-android uiautomator","text(\"发现\")","6b7693d1-c4f8-432b-b55d-5d7fdd7ec506"]
+2018-10-31 08:19:38:732 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 08:19:38:733 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 08:19:38:735 - info: [debug] [BaseDriver] Waiting up to 5000 ms for condition
+2018-10-31 08:19:38:740 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"text(\"发现\")","context":"","multiple":false}}
+2018-10-31 08:19:38:747 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"text(\"发现\")","context":"","multiple":false}}
+2018-10-31 08:19:38:748 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 08:19:38:749 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 08:19:38:751 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'text("发现")' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: false
+2018-10-31 08:19:38:753 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: text("发现")
+2018-10-31 08:19:38:756 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "发现"
+2018-10-31 08:19:38:759 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=发现]
+2018-10-31 08:19:38:976 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-31 08:19:38:978 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'text("发现")' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: false
+2018-10-31 08:19:38:979 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: text("发现")
+2018-10-31 08:19:38:980 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "发现"
+2018-10-31 08:19:38:982 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=发现]
+2018-10-31 08:19:39:006 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-31 08:19:39:007 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 08:19:39:009 - info: [debug] [BaseDriver] Waited for 272 ms so far
+2018-10-31 08:19:39:511 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"text(\"发现\")","context":"","multiple":false}}
+2018-10-31 08:19:39:518 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"text(\"发现\")","context":"","multiple":false}}
+2018-10-31 08:19:39:521 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 08:19:39:523 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 08:19:39:527 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'text("发现")' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: false
+2018-10-31 08:19:39:530 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: text("发现")
+2018-10-31 08:19:39:532 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "发现"
+2018-10-31 08:19:39:534 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=发现]
+2018-10-31 08:19:39:542 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+2018-10-31 08:19:39:545 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'text("发现")' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: false
+2018-10-31 08:19:39:548 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: text("发现")
+2018-10-31 08:19:39:550 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "发现"
+2018-10-31 08:19:39:553 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=发现]
+2018-10-31 08:19:39:568 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":7,"value":"No element found"}
+2018-10-31 08:19:39:569 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 08:19:39:571 - info: [debug] [BaseDriver] Waited for 834 ms so far
+2018-10-31 08:19:40:074 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"text(\"发现\")","context":"","multiple":false}}
+2018-10-31 08:19:40:080 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"text(\"发现\")","context":"","multiple":false}}
+2018-10-31 08:19:40:083 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 08:19:40:086 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 08:19:40:089 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'text("发现")' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: false
+2018-10-31 08:19:40:093 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: text("发现")
+2018-10-31 08:19:40:095 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "发现"
+2018-10-31 08:19:40:098 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=发现]
+2018-10-31 08:19:40:794 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+2018-10-31 08:19:40:795 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 08:19:40:797 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"1"}
+2018-10-31 08:19:40:799 - info: [HTTP] <-- POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/element 200 2069 ms - 87 
+2018-10-31 08:19:40:803 - info: [HTTP] --> POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/element/1/click {"sessionId":"6b7693d1-c4f8-432b-b55d-5d7fdd7ec506","id":"1"}
+2018-10-31 08:19:40:804 - info: [debug] [MJSONWP] Calling AppiumDriver.click() with args: ["1","6b7693d1-c4f8-432b-b55d-5d7fdd7ec506"]
+2018-10-31 08:19:40:806 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+2018-10-31 08:19:40:809 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+2018-10-31 08:19:40:810 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 08:19:40:811 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-10-31 08:19:42:377 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-10-31 08:19:42:378 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 08:19:42:380 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2018-10-31 08:19:42:382 - info: [HTTP] <-- POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/element/1/click 200 1579 ms - 76 
+2018-10-31 08:19:42:386 - info: [HTTP] --> POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/timeouts/implicit_wait {"sessionId":"6b7693d1-c4f8-432b-b55d-5d7fdd7ec506","ms":5000}
+2018-10-31 08:19:42:387 - info: [debug] [MJSONWP] Calling AppiumDriver.implicitWait() with args: [5000,"6b7693d1-c4f8-432b-b55d-5d7fdd7ec506"]
+2018-10-31 08:19:42:389 - info: [debug] [BaseDriver] Set implicit wait to 5000ms
+2018-10-31 08:19:42:392 - info: [debug] [MJSONWP] Responding to client with driver.implicitWait() result: null
+2018-10-31 08:19:42:394 - info: [HTTP] <-- POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/timeouts/implicit_wait 200 8 ms - 76 
+2018-10-31 08:19:42:400 - info: [HTTP] --> GET /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/window/current/size {}
+2018-10-31 08:19:42:401 - info: [debug] [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","6b7693d1-c4f8-432b-b55d-5d7fdd7ec506"]
+2018-10-31 08:19:42:403 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-10-31 08:19:42:412 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-10-31 08:19:42:413 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 08:19:42:415 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2018-10-31 08:19:42:417 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1920,"width":1080}}
+2018-10-31 08:19:42:418 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 08:19:42:420 - info: [debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"height":1920,"width":1080}
+2018-10-31 08:19:42:422 - info: [HTTP] <-- GET /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/window/current/size 200 21 ms - 100 
+2018-10-31 08:19:42:497 - info: [HTTP] --> GET /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/window/current/size {}
+2018-10-31 08:19:42:498 - info: [debug] [MJSONWP] Calling AppiumDriver.getWindowSize() with args: ["current","6b7693d1-c4f8-432b-b55d-5d7fdd7ec506"]
+2018-10-31 08:19:42:499 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-10-31 08:19:42:508 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+2018-10-31 08:19:42:509 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 08:19:42:511 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+2018-10-31 08:19:42:513 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1920,"width":1080}}
+2018-10-31 08:19:42:514 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 08:19:42:515 - info: [debug] [MJSONWP] Responding to client with driver.getWindowSize() result: {"height":1920,"width":1080}
+2018-10-31 08:19:42:517 - info: [HTTP] <-- GET /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/window/current/size 200 20 ms - 100 
+2018-10-31 08:19:42:521 - info: [HTTP] --> POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/touch/perform {"sessionId":"6b7693d1-c4f8-432b-b55d-5d7fdd7ec506","actions":[{"action":"press","options":{"y":480,"x":540}},{"action":"wait","options":{"ms":500}},{"action":"moveTo","options":{"y":1248,"x":540}},{"action":"release","options":{}}]}
+2018-10-31 08:19:42:522 - info: [debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"y":480,"x":540}},{"action":"wait","options":{"ms":500}},{"action":"moveTo","options":{"y":1248,"x":540}},{"action":"release","options":{}}],"6b7693d1-c4f8-432b-b55d-5d7fdd7ec506"]
+2018-10-31 08:19:42:526 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"swipe","params":{"startX":540,"startY":480,"endX":540,"endY":1248,"steps":14}}
+2018-10-31 08:19:42:529 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"swipe","params":{"startX":540,"startY":480,"endX":540,"endY":1248,"steps":14}}
+2018-10-31 08:19:42:529 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 08:19:42:531 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: swipe
+2018-10-31 08:19:42:532 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1080,1920]
+2018-10-31 08:19:42:544 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Display bounds: [0,0][1080,1920]
+2018-10-31 08:19:42:545 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Swiping from [x=540.0, y=480.0] to [x=540.0, y=1248.0] with steps: 14
+2018-10-31 08:19:43:451 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-10-31 08:19:43:453 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 08:19:43:455 - info: [debug] [MJSONWP] Responding to client with driver.performTouch() result: true
+2018-10-31 08:19:43:460 - info: [HTTP] <-- POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/touch/perform 200 936 ms - 76 
+2018-10-31 08:19:43:467 - info: [HTTP] --> POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/timeouts/implicit_wait {"sessionId":"6b7693d1-c4f8-432b-b55d-5d7fdd7ec506","ms":5000}
+2018-10-31 08:19:43:470 - info: [debug] [MJSONWP] Calling AppiumDriver.implicitWait() with args: [5000,"6b7693d1-c4f8-432b-b55d-5d7fdd7ec506"]
+2018-10-31 08:19:43:472 - info: [debug] [BaseDriver] Set implicit wait to 5000ms
+2018-10-31 08:19:43:478 - info: [debug] [MJSONWP] Responding to client with driver.implicitWait() result: null
+2018-10-31 08:19:43:483 - info: [HTTP] <-- POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/timeouts/implicit_wait 200 16 ms - 76 
+2018-10-31 08:19:43:489 - info: [HTTP] --> POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/element {"using":"-android uiautomator","sessionId":"6b7693d1-c4f8-432b-b55d-5d7fdd7ec506","value":"text(\"小程序\")"}
+2018-10-31 08:19:43:490 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["-android uiautomator","text(\"小程序\")","6b7693d1-c4f8-432b-b55d-5d7fdd7ec506"]
+2018-10-31 08:19:43:492 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 08:19:43:493 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 08:19:43:494 - info: [debug] [BaseDriver] Waiting up to 5000 ms for condition
+2018-10-31 08:19:43:497 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"text(\"小程序\")","context":"","multiple":false}}
+2018-10-31 08:19:43:586 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"text(\"小程序\")","context":"","multiple":false}}
+2018-10-31 08:19:43:587 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 08:19:43:587 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 08:19:43:592 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'text("小程序")' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: false
+2018-10-31 08:19:43:593 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: text("小程序")
+2018-10-31 08:19:43:594 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "小程序"
+2018-10-31 08:19:43:595 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=小程序]
+2018-10-31 08:19:43:690 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"2"}}
+2018-10-31 08:19:43:692 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 08:19:43:698 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"2"}
+2018-10-31 08:19:43:703 - info: [HTTP] <-- POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/element 200 213 ms - 87 
+2018-10-31 08:19:43:709 - info: [HTTP] --> POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/element/2/click {"sessionId":"6b7693d1-c4f8-432b-b55d-5d7fdd7ec506","id":"2"}
+2018-10-31 08:19:43:711 - info: [debug] [MJSONWP] Calling AppiumDriver.click() with args: ["2","6b7693d1-c4f8-432b-b55d-5d7fdd7ec506"]
+2018-10-31 08:19:43:714 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"2"}}
+2018-10-31 08:19:43:721 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"2"}}
+2018-10-31 08:19:43:723 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 08:19:43:724 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-10-31 08:19:44:969 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-10-31 08:19:44:970 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 08:19:44:972 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2018-10-31 08:19:44:974 - info: [HTTP] <-- POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/element/2/click 200 1266 ms - 76 
+2018-10-31 08:19:44:977 - info: [HTTP] --> POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/timeouts/implicit_wait {"sessionId":"6b7693d1-c4f8-432b-b55d-5d7fdd7ec506","ms":5000}
+2018-10-31 08:19:44:978 - info: [debug] [MJSONWP] Calling AppiumDriver.implicitWait() with args: [5000,"6b7693d1-c4f8-432b-b55d-5d7fdd7ec506"]
+2018-10-31 08:19:44:979 - info: [debug] [BaseDriver] Set implicit wait to 5000ms
+2018-10-31 08:19:44:982 - info: [debug] [MJSONWP] Responding to client with driver.implicitWait() result: null
+2018-10-31 08:19:44:985 - info: [HTTP] <-- POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/timeouts/implicit_wait 200 6 ms - 76 
+2018-10-31 08:19:44:990 - info: [HTTP] --> POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/element {"using":"-android uiautomator","sessionId":"6b7693d1-c4f8-432b-b55d-5d7fdd7ec506","value":"text(\"驴妈妈门票预订\")"}
+2018-10-31 08:19:44:990 - info: [debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["-android uiautomator","text(\"驴妈妈门票预订\")","6b7693d1-c4f8-432b-b55d-5d7fdd7ec506"]
+2018-10-31 08:19:44:992 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 08:19:44:993 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 08:19:44:995 - info: [debug] [BaseDriver] Waiting up to 5000 ms for condition
+2018-10-31 08:19:44:997 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"text(\"驴妈妈门票预订\")","context":"","multiple":false}}
+2018-10-31 08:19:45:001 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"text(\"驴妈妈门票预订\")","context":"","multiple":false}}
+2018-10-31 08:19:45:002 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 08:19:45:004 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 08:19:45:006 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'text("驴妈妈门票预订")' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: false
+2018-10-31 08:19:45:008 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] [APPIUM-UIAUT
+2018-10-31 08:19:45:010 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] O] [debug] Parsing selector: text("驴妈妈门票预订")[/APPIUM-UIAUTO]
+2018-10-31 08:19:45:011 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "驴妈妈门票预订"
+2018-10-31 08:19:45:012 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[TEXT=驴妈妈门票预订]
+2018-10-31 08:19:46:322 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"3"}}
+2018-10-31 08:19:46:323 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 08:19:46:325 - info: [debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"3"}
+2018-10-31 08:19:46:327 - info: [HTTP] <-- POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/element 200 1338 ms - 87 
+2018-10-31 08:19:46:331 - info: [HTTP] --> POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/element/3/click {"sessionId":"6b7693d1-c4f8-432b-b55d-5d7fdd7ec506","id":"3"}
+2018-10-31 08:19:46:332 - info: [debug] [MJSONWP] Calling AppiumDriver.click() with args: ["3","6b7693d1-c4f8-432b-b55d-5d7fdd7ec506"]
+2018-10-31 08:19:46:334 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"3"}}
+2018-10-31 08:19:46:338 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"3"}}
+2018-10-31 08:19:46:339 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 08:19:46:341 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-10-31 08:19:47:097 - info: [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-10-31 08:19:47:101 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 08:19:47:103 - info: [debug] [MJSONWP] Responding to client with driver.click() result: true
+2018-10-31 08:19:47:109 - info: [HTTP] <-- POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/element/3/click 200 773 ms - 76 
+2018-10-31 08:19:47:115 - info: [HTTP] --> POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/timeouts/implicit_wait {"sessionId":"6b7693d1-c4f8-432b-b55d-5d7fdd7ec506","ms":5000}
+2018-10-31 08:19:47:118 - info: [debug] [MJSONWP] Calling AppiumDriver.implicitWait() with args: [5000,"6b7693d1-c4f8-432b-b55d-5d7fdd7ec506"]
+2018-10-31 08:19:47:122 - info: [debug] [BaseDriver] Set implicit wait to 5000ms
+2018-10-31 08:19:47:127 - info: [debug] [MJSONWP] Responding to client with driver.implicitWait() result: null
+2018-10-31 08:19:47:131 - info: [HTTP] <-- POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/timeouts/implicit_wait 200 16 ms - 76 
+2018-10-31 08:19:47:139 - info: [HTTP] --> GET /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/contexts {}
+2018-10-31 08:19:47:141 - info: [debug] [MJSONWP] Calling AppiumDriver.getContexts() with args: ["6b7693d1-c4f8-432b-b55d-5d7fdd7ec506"]
+2018-10-31 08:19:47:145 - info: [debug] [AndroidDriver] Getting a list of available webviews
+2018-10-31 08:19:47:149 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:19:47:456 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:19:47:459 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","cat","/proc/net/unix"]
+2018-10-31 08:19:47:575 - info: [debug] [AndroidDriver] WEBVIEW_21579 mapped to pid 21579
+2018-10-31 08:19:47:576 - info: [debug] [AndroidDriver] Getting process name for webview
+2018-10-31 08:19:47:578 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:19:47:592 - info: [debug] [AndroidDriver] WEBVIEW_21809 mapped to pid 21809
+2018-10-31 08:19:47:592 - info: [debug] [AndroidDriver] Getting process name for webview
+2018-10-31 08:19:47:595 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:19:47:621 - info: [debug] [AndroidDriver] WEBVIEW_21730 mapped to pid 21730
+2018-10-31 08:19:47:627 - info: [debug] [AndroidDriver] Getting process name for webview
+2018-10-31 08:19:47:630 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:19:47:646 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:19:47:648 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","ps"]
+2018-10-31 08:19:47:670 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:19:47:671 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","ps"]
+2018-10-31 08:19:47:696 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:19:47:697 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","ps"]
+2018-10-31 08:19:47:845 - info: [debug] [AndroidDriver] Parsed pid: 21579 pkg: com.tencent.mm:appbrand0!
+2018-10-31 08:19:47:846 - info: [debug] [AndroidDriver] from: u0_a111,21579,352,2362152,180808,sys_epoll_,b6cbe99c,S,com.tencent.mm:appbrand0
+2018-10-31 08:19:47:847 - info: [debug] [AndroidDriver] returning process name: com.tencent.mm:appbrand0
+2018-10-31 08:19:47:941 - info: [debug] [AndroidDriver] Parsed pid: 21730 pkg: com.tencent.mm:support!
+2018-10-31 08:19:47:942 - info: [debug] [AndroidDriver] from: u0_a111,21730,352,2083316,124208,sys_epoll_,b6cbe99c,S,com.tencent.mm:support
+2018-10-31 08:19:47:943 - info: [debug] [AndroidDriver] returning process name: com.tencent.mm:support
+2018-10-31 08:19:47:981 - info: [debug] [AndroidDriver] Parsed pid: 21809 pkg: com.tencent.mm:tools!
+2018-10-31 08:19:47:982 - info: [debug] [AndroidDriver] from: u0_a111,21809,352,2108552,123712,0,b6cc026c,R,com.tencent.mm:tools
+2018-10-31 08:19:47:984 - info: [debug] [AndroidDriver] returning process name: com.tencent.mm:tools
+2018-10-31 08:19:47:986 - info: [debug] [AndroidDriver] Found webviews: ["WEBVIEW_com.tencent.mm:appbrand0","WEBVIEW_com.tencent.mm:tools","WEBVIEW_com.tencent.mm:support"]
+2018-10-31 08:19:47:989 - info: [debug] [AndroidDriver] Available contexts: ["NATIVE_APP","WEBVIEW_com.tencent.mm:appbrand0","WEBVIEW_com.tencent.mm:tools","WEBVIEW_com.tencent.mm:support"]
+2018-10-31 08:19:47:990 - info: [debug] [MJSONWP] Responding to client with driver.getContexts() result: ["NATIVE_APP","WEBVIEW_com.tencent.mm:appbrand0","WEBVIEW_com.tencent.mm:tools","WEBVIEW_com.tencent.mm:support"]
+2018-10-31 08:19:47:992 - info: [HTTP] <-- GET /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/contexts 200 855 ms - 185 
+2018-10-31 08:19:47:997 - info: [HTTP] --> POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/context {"sessionId":"6b7693d1-c4f8-432b-b55d-5d7fdd7ec506","name":"WEBVIEW_com.tencent.mm:appbrand0"}
+2018-10-31 08:19:47:997 - info: [debug] [MJSONWP] Calling AppiumDriver.setContext() with args: ["WEBVIEW_com.tencent.mm:appbrand0","6b7693d1-c4f8-432b-b55d-5d7fdd7ec506"]
+2018-10-31 08:19:47:999 - info: [debug] [AndroidDriver] Getting a list of available webviews
+2018-10-31 08:19:48:001 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:19:48:039 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:19:48:040 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","cat","/proc/net/unix"]
+2018-10-31 08:19:48:155 - info: [debug] [AndroidDriver] WEBVIEW_21579 mapped to pid 21579
+2018-10-31 08:19:48:156 - info: [debug] [AndroidDriver] Getting process name for webview
+2018-10-31 08:19:48:157 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:19:48:171 - info: [debug] [AndroidDriver] WEBVIEW_21809 mapped to pid 21809
+2018-10-31 08:19:48:172 - info: [debug] [AndroidDriver] Getting process name for webview
+2018-10-31 08:19:48:173 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:19:48:194 - info: [debug] [AndroidDriver] WEBVIEW_21730 mapped to pid 21730
+2018-10-31 08:19:48:194 - info: [debug] [AndroidDriver] Getting process name for webview
+2018-10-31 08:19:48:196 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 08:19:48:219 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:19:48:220 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","ps"]
+2018-10-31 08:19:48:241 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:19:48:242 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","ps"]
+2018-10-31 08:19:48:287 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 08:19:48:288 - info: [debug] [ADB] Running 'C:\android-sdk-windows\platform-tools\adb.exe' with args: ["-P",5037,"-s","a6990c40","shell","ps"]
+2018-10-31 08:19:48:372 - info: [debug] [AndroidDriver] Parsed pid: 21579 pkg: com.tencent.mm:appbrand0!
+2018-10-31 08:19:48:372 - info: [debug] [AndroidDriver] from: u0_a111,21579,352,2373584,189108,0,b6cbef80,R,com.tencent.mm:appbrand0
+2018-10-31 08:19:48:374 - info: [debug] [AndroidDriver] returning process name: com.tencent.mm:appbrand0
+2018-10-31 08:19:48:485 - info: [debug] [AndroidDriver] Parsed pid: 21809 pkg: com.tencent.mm:tools!
+2018-10-31 08:19:48:486 - info: [debug] [AndroidDriver] from: u0_a111,21809,352,2114916,118472,0,b4744300,R,com.tencent.mm:tools
+2018-10-31 08:19:48:488 - info: [debug] [AndroidDriver] returning process name: com.tencent.mm:tools
+2018-10-31 08:19:48:538 - info: [debug] [AndroidDriver] Parsed pid: 21730 pkg: com.tencent.mm:support!
+2018-10-31 08:19:48:539 - info: [debug] [AndroidDriver] from: u0_a111,21730,352,2082964,110592,sys_epoll_,b6cbe99c,S,com.tencent.mm:support
+2018-10-31 08:19:48:541 - info: [debug] [AndroidDriver] returning process name: com.tencent.mm:support
+2018-10-31 08:19:48:542 - info: [debug] [AndroidDriver] Found webviews: ["WEBVIEW_com.tencent.mm:appbrand0","WEBVIEW_com.tencent.mm:tools","WEBVIEW_com.tencent.mm:support"]
+2018-10-31 08:19:48:543 - info: [debug] [AndroidDriver] Available contexts: ["NATIVE_APP","WEBVIEW_com.tencent.mm:appbrand0","WEBVIEW_com.tencent.mm:tools","WEBVIEW_com.tencent.mm:support"]
+2018-10-31 08:19:48:545 - info: [debug] [AndroidDriver] Connecting to chrome-backed webview context 'WEBVIEW_com.tencent.mm:appbrand0'
+2018-10-31 08:19:48:553 - info: [debug] [AndroidDriver] A port was not given, using random port: 8000
+2018-10-31 08:19:48:555 - info: [debug] [Chromedriver] Changed state to 'starting'
+2018-10-31 08:19:48:558 - info: [Chromedriver] Set chromedriver binary as: C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\appium-chromedriver\chromedriver\win\chromedriver.exe
+2018-10-31 08:19:48:558 - info: [Chromedriver] Killing any old chromedrivers, running: FOR /F "usebackq tokens=5" %a in (`netstat -nao ^| findstr /R /C:"8000 "`) do (FOR /F "usebackq" %b in (`TASKLIST /FI "PID eq %a" ^| findstr /I chromedriver.exe`) do (IF NOT %b=="" TASKKILL /F /PID %a))
+2018-10-31 08:19:49:532 - info: [Chromedriver] No old chromedrivers seemed to exist
+2018-10-31 08:19:49:532 - info: [Chromedriver] Spawning chromedriver with: C:\Users\Administrator\AppData\Roaming\npm\node_modules\appium\node_modules\appium-chromedriver\chromedriver\win\chromedriver.exe --url-base=wd/hub --port=8000 --adb-port=5037
+2018-10-31 08:19:49:580 - info: [Chromedriver] [STDOUT] Starting ChromeDriver 2.28.455520 (cc17746adff54984afff480136733114c6b3704b) on port 8000
+Only local connections are allowed.
+2018-10-31 08:19:49:585 - info: [debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8000/wd/hub/status] with no body
+2018-10-31 08:19:49:605 - info: [debug] [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"\",\"status\":0,\"value\":{\"build\":{\"version\":\"alpha\"},\"os\":{\"arch\":\"x86_64\",\"name\":\"Windows NT\",\"version\":\"6.1.7601 SP1\"}}}"
+2018-10-31 08:19:49:608 - info: [debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://127.0.0.1:8000/wd/hub/session] with body: {"desiredCapabilities":{"chromeOptions":{"androidPackage":"com.tencent.mm","androidUseRunningApp":true,"androidProcess":"com.tencent.mm:appbrand0","androidDeviceSerial":"a6990c40"}}}
+2018-10-31 08:19:52:485 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"db925719472cb3b069c3923eb3d2fc3a","status":0,"value":{"acceptSslCerts":true,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.28.455520 (cc17746adff54984afff480136733114c6b3704b)"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":true,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"pageLoadStrategy":"normal","platform":"ANDROID","rotatable":false,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"57.0.2987.132","webStorageEnabled":true}}
+2018-10-31 08:19:52:487 - info: [debug] [Chromedriver] Changed state to 'online'
+2018-10-31 08:19:52:490 - info: [debug] [MJSONWP] Responding to client with driver.setContext() result: null
+2018-10-31 08:19:52:494 - info: [HTTP] <-- POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/context 200 4495 ms - 76 
+2018-10-31 08:19:52:501 - info: [HTTP] --> POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/timeouts/implicit_wait {"sessionId":"6b7693d1-c4f8-432b-b55d-5d7fdd7ec506","ms":5000}
+2018-10-31 08:19:52:504 - info: [MJSONWP] Driver proxy active, passing request on via HTTP proxy
+2018-10-31 08:19:52:508 - info: [debug] [JSONWP Proxy] Proxying [POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/timeouts/implicit_wait] to [POST http://127.0.0.1:8000/wd/hub/session/db925719472cb3b069c3923eb3d2fc3a/timeouts/implicit_wait] with body: {"sessionId":"6b7693d1-c4f8-432b-b55d-5d7fdd7ec506","ms":5000}
+2018-10-31 08:19:52:517 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"db925719472cb3b069c3923eb3d2fc3a","status":0,"value":null}
+2018-10-31 08:19:52:519 - info: [JSONWP Proxy] Replacing sessionId db925719472cb3b069c3923eb3d2fc3a with 6b7693d1-c4f8-432b-b55d-5d7fdd7ec506
+2018-10-31 08:19:52:523 - info: [HTTP] <-- POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/timeouts/implicit_wait 200 22 ms - 76 
+2018-10-31 08:19:52:531 - info: [HTTP] --> POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/element {"using":"xpath","sessionId":"6b7693d1-c4f8-432b-b55d-5d7fdd7ec506","value":"//wx-text[@class='searchText']"}
+2018-10-31 08:19:52:533 - info: [MJSONWP] Driver proxy active, passing request on via HTTP proxy
+2018-10-31 08:19:52:535 - info: [debug] [JSONWP Proxy] Proxying [POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/element] to [POST http://127.0.0.1:8000/wd/hub/session/db925719472cb3b069c3923eb3d2fc3a/element] with body: {"using":"xpath","sessionId":"6b7693d1-c4f8-432b-b55d-5d7fdd7ec506","value":"//wx-text[@class='searchText']"}
+2018-10-31 08:19:57:648 - info: [debug] [JSONWP Proxy] Got response with status 200: {"sessionId":"db925719472cb3b069c3923eb3d2fc3a","status":7,"value":{"message":"no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//wx-text[@class='searchText']\"}\n  (Session info: chrome=57.0.2987.132)\n  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 6.1.7601 SP1 x86_64)"}}
+2018-10-31 08:19:57:649 - info: [JSONWP Proxy] Replacing sessionId db925719472cb3b069c3923eb3d2fc3a with 6b7693d1-c4f8-432b-b55d-5d7fdd7ec506
+2018-10-31 08:19:57:653 - info: [HTTP] <-- POST /wd/hub/session/6b7693d1-c4f8-432b-b55d-5d7fdd7ec506/element 200 5122 ms - 365 
+2018-10-31 08:20:01:639 - error: [Chromedriver] Chromedriver exited unexpectedly with code 3221225786, signal null
